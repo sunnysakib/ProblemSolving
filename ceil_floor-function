@@ -1,0 +1,4 @@
+ceil of A/B is  (A+B-1)/B
+floor of A/B is A/B
+round of A/B is (A+B/2)/B  // For Positive Num
+                (A-B/2)/B  // For Negative Num
