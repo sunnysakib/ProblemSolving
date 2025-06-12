@@ -3,9 +3,10 @@
 #include <stdio.h>
 
 int main() {
-    double x,p;
-    scanf("%lf %lf", &x, &p);
-
-    printf("%.2lf\n", p/(1-(x/100)));
+    int x; 
+    float p;
+    scanf("%d %f", &x, &p);
+    
+    printf("%.2f\n", p/(1-(x/100.0)));
     return 0;
 }
