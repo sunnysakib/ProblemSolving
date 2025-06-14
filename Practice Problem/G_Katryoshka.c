@@ -16,7 +16,7 @@ int main() {
     // But total dolls can't exceed available bodies
     if (c > k) c = k;
 
-    // Remaining dolls to make
+    // Remaining dolls  need to make
     ll remaining = k - c;
 
     // Need 2 eyes per remaining doll
