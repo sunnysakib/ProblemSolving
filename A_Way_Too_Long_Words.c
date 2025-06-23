@@ -5,12 +5,10 @@ int main() {
     int t;
     scanf("%d", &t);
 
-    while(t--){
-        int n;
-        scanf("%d",&n);
-
-        printf("%d\n",n-10);
-    }
+    if(t==2) printf("NO\n");
+    else if(t%2==0) printf("YES\n");
+    else printf("NO\n");
+    
 
     return 0;
 }
